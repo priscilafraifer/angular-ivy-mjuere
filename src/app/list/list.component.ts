@@ -7,6 +7,7 @@ import { listData } from '../list';
   styleUrls: ['./list.component.css'],
 })
 export class ListComponent implements OnInit {
+  list = listData;
   constructor() {}
 
   ngOnInit() {}
