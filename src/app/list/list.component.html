@@ -1,1 +1,10 @@
 <h2>Lista</h2>
+<table border="1">
+<tr>
+  <th>ID</th>
+  <th>TEXTO</th>
+</tr>
+<t *ngFor="let item of list">
+  <td>{{item.id}}</td>
+  <td>{{item.text}}</td>
+</tr>
